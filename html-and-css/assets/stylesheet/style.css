@@ -1,0 +1,54 @@
+header{
+  display: flex;
+  color:  white;
+  background: black;
+  margin: auto;
+  width: auto;
+}
+.h1{
+  padding-left: 300px;
+}
+
+.div2{
+  padding-left: 300px;
+}
+body{
+  background-color: green;
+  margin: 0px;
+}
+
+li{
+  list-style:none;
+  margin: 10px;
+}
+
+ul{
+  display: flex;
+}
+main{
+  margin: unset;
+  padding: 100px;
+}
+footer{
+  background: white;
+  height: 60px;
+  text-align: center;
+}
+
+.h2{
+  padding: 15px;
+}
+.avatar{
+    display: block;
+    height: 300px;
+    width: 300px;
+    margin: auto;
+
+}
+
+.div1{
+  margin: auto;
+  text-align: center;
+  padding-top: 20px;
+}
+
