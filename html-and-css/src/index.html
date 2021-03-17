@@ -1,32 +1,153 @@
 <!DOCTYPE html>
 <html>
-<head>  
-    <meta charset="utf8">
-    <title>START BOOTSTRAP</title>
-        <link rel="stylesheet" href="../assets/stylesheet/style.css"> 
+
+<head>
+  <meta charset="utf8">
+  <title>START BOOTSTRAP</title>
+  <link rel="stylesheet" href="../assets/stylesheet/style.css">
+  <link rel="stylesheet" href="../assets/stylesheet/fontawesome/css/all.css">
 </head>
+
 <body>
-    <header>
+  <header>
     <div>
-        <h1 class="h1">START BOOTSTRAP</h1>
+      <h1 class="logo">START BOOTSTRAP</h1>
     </div>
-    <div class="div2">
-        <ul>
-            <li>PORTFOLIO</li>
-            <li>ABOUT</li>
-            <li>CONTACT</li>
-        </ul>
-    </div>
-    </header>
-    <main>
-            <img class="avatar" src='../assets/img/avataaars.svg'/>
-            <div class="div1">
-            <b style="font-size:50px">START BOOTSTRAP</b>
-            <p>Graphic Artist - Web Designer - Illustrator</p>
+    <nav class="navigation">
+      <ul>
+        <li>PORTFOLIO</li>
+        <li>ABOUT</li>
+        <li>CONTACT</li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <div class="main-first-block">
+      <img class="avatar" src='../assets/img/avataaars.svg' />
+      <div class="sub-avatar-text">
+        <h1 class="big-text">START BOOTSTRAP</h1>
+        <div class="logo-star">
+          <div class="line-for-star line-for-star-left"></div>
+          <div><i class="fas fa-star fa-lg"></i></div>
+          <div class="line-for-star line-for-star-right"></div>
         </div>
-    </main> 
-    <footer>
-        <h2 class="h2">PORTFOLIO</h2>
-    </footer>   
+        <p>Graphic Artist - Web Designer - Illustrator</p>
+      </div>
+    </div>
+
+    <div class="main-portfolio-block">
+      <h2 class="title-black">PORTFOLIO</h2>
+      <div class="logo-star">
+        <div class="line-for-star line-for-star-left"></div>
+        <div><i class="fas fa-star fa-lg"></i></div>
+        <div class="line-for-star line-for-star-right"></div>
+      </div>
+
+      <div class="image-portfolio">
+        <div>
+          <img src="../assets/img/cabin.png" class="image-portf-feature" />
+          <img src="../assets/img/cake.png" class="image-portf-feature" />
+          <img src="../assets/img/circus.png" class="image-portf-feature" />
+        </div>
+        <div>
+          <img src="../assets/img/game.png" class="image-portf-feature" />
+          <img src="../assets/img/safe.png" class="image-portf-feature" />
+          <img src="../assets/img/submarine.png" class="image-portf-feature" />
+        </div>
+      </div>
+    </div>
+
+    <div class="main-about-block">
+      <h2 class="title-white">ABOUT</h2>
+      <div class="logo-star">
+        <div class="line-for-star line-for-star-left"></div>
+        <div><i class="fas fa-star fa-lg"></i></div>
+        <div class="line-for-star line-for-star-right"></div>
+      </div>
+      <div class="text-about">
+        <div class="text-about-size">
+          <p>
+            Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the complete source
+            files including HTML, CSS, and JavaScript as well as optional SASS stylesheets for easy customization.
+          </p>
+        </div>
+        <div class="text-about-size">
+          <p>
+            You can create your own custom avatar for the masthead, change the icon in the dividers, and add your email
+            address to the contact form to make it fully functional!
+          </p>
+        </div>
+      </div>
+      <button class="download-button"><i class="fas fa-download fa-pull-left"></i>Free Download!</button>
+    </div>
+
+    <div class="main-contact-me-block">
+      <h2 class="title-black">CONTACT ME</h2>
+      <div class="logo-star">
+        <div class="line-for-star line-for-star-left"></div>
+        <div><i class="fas fa-star fa-lg"></i></div>
+        <div class="line-for-star line-for-star-right"></div>
+      </div>
+      <div class="form-row">
+
+        <label for='full-name'>Name</label>
+        <input id='full-name' name='full-name' type='text' />
+
+        <label for='emaile'>Email Address</label>
+        <input id='email' name='email' type='email' placeholder="my@example.com" />
+
+        <label for='phone-number'>Phone Number</label>
+        <input id='phone-number' name='phone-number' type='tel' />
+
+        <label for='Message'>Message</label>
+        <textarea id='Message' name='Message'></textarea>
+
+        <div class="display-button">
+          <button class="send-button">Send</button>
+        </div>
+
+      </div>
+    </div>
+
+  </main>
+  <footer>
+    <div class="footer">
+      <div>
+        <div>LOCATION</div>
+        <div>2215 John Daniel Drive <br>Clark, MO 65243</div>
+      </div>
+
+      <div>
+        <div>AROUND THE WEB</div>
+        <div>
+          <span class="fa-stack" style="vertical-align: top;">
+            <i class="far fa-circle fa-stack-2x"></i>
+            <i class="fab fa-facebook-f fa-stack-1x"></i>
+          </span>
+          <span class="fa-stack" style="vertical-align: top;">
+            <i class="far fa-circle fa-stack-2x"></i>
+            <i class="fab fa-twitter fa-stack-1x"></i>
+          </span>
+          <span class="fa-stack" style="vertical-align: top;">
+            <i class="far fa-circle fa-stack-2x"></i>
+            <i class="fab fa-linkedin-in fa-stack-1x"></i>
+          </span>
+        </div>
+      </div>
+
+      <div>
+        <div>ABOUT FREELANCER</div>
+        <div>
+          Freelance is a free to use, MIT <br>licensed Bootstrap theme created by <br>Start Bootstrap.
+        </div>
+      </div>
+      
+    </div>
+
+    <div class="footer-end">
+      Copyright &nbsp; <i class="far fa-copyright"></i> &nbsp; Your Website 2020
+    </div>
+  </footer>
 </body>
+
 </html>

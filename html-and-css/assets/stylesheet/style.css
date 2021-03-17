@@ -1,54 +1,237 @@
-header{
+header {
   display: flex;
-  color:  white;
+  color: white;
   background: black;
   margin: auto;
   width: auto;
 }
-.h1{
+
+.logo {
   padding-left: 300px;
 }
 
-.div2{
+.navigation {
   padding-left: 300px;
 }
-body{
-  background-color: green;
+
+body {
+  display: block;
   margin: 0px;
 }
 
-li{
-  list-style:none;
+li {
+  list-style: none;
   margin: 10px;
 }
 
-ul{
+ul {
   display: flex;
 }
-main{
+
+.sub-avatar-text h1.big-text {
+  font-size: 50px;
+}
+
+main {
   margin: unset;
+}
+
+.main-first-block {
+  background-color: #1abc9c;
   padding: 100px;
 }
-footer{
-  background: white;
-  height: 60px;
-  text-align: center;
+
+.avatar {
+  display: block;
+  height: 200px;
+  width: 200px;
+  margin: auto;
 }
 
-.h2{
-  padding: 15px;
-}
-.avatar{
-    display: block;
-    height: 300px;
-    width: 300px;
-    margin: auto;
-
-}
-
-.div1{
+.sub-avatar-text {
   margin: auto;
   text-align: center;
   padding-top: 20px;
+  color: white;
 }
 
+.logo-star {
+  display: flex;
+  margin: 20px;
+  justify-content: center;
+  align-items: center;
+}
+
+.line-for-star {
+  background: white;
+  height: 5px;
+  width: 100px;
+  border-radius: 5px;
+}
+
+.line-for-star-right {
+  margin-left: 15px;
+}
+
+.line-for-star-left {
+  margin-right: 15px;
+}
+
+.main-portfolio-block {
+  background-color: white;
+}
+
+.title-black {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 30px;
+}
+
+.title-white {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 30px;
+  color: white;
+}
+
+.main-portfolio-block div.line-for-star {
+  background: black;
+}
+
+.image-portfolio {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.image-portf-feature {
+  border-radius: 10%;
+  height: 220px;
+  width: 300px;
+  margin: 20px;
+}
+
+.main-about-block {
+  background-color: #1abc9c;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.text-about {
+  width: 800px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.text-about-size {
+  width: 300px;
+  font-size: 20px;
+}
+
+.download-button {
+  background-color: #1abc9c;
+  border: 1px solid white;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  font-size: 16px;
+  margin: 10px;
+}
+
+.main-contavt-me-block {
+  background-color: white;
+}
+
+.main-contact-me-block div.line-for-star {
+  background-color: black;
+}
+
+.form-row {
+  margin-bottom: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.form-row label {
+  width: 40%;
+  display: flex;
+  justify-content: left;
+  font-size: 20px;
+  margin: 5px;
+}
+
+.form-row input {
+  width: 40%;
+  margin: 10px;
+  border-top: unset;
+  border-left-width: 0px;
+  border-right-width: 0px;
+  border-bottom-color: #E2E2E2;
+}
+
+.form-row textarea {
+  min-height: 200px;
+  width: 40%;
+  border-top: unset;
+  border-left-width: 0px;
+  border-right-width: 0px;
+  border-bottom-color: #E2E2E2;
+  resize: none;
+}
+
+.display-button {
+  display: flex;
+  justify-content: left;
+  width: 40%;
+  margin: 10px;
+}
+
+.send-button {
+  background-color: #1abc9c;
+  padding: 15px 30px;
+  color: white;
+  border-radius: 5px;
+  border: 1px solid white
+}
+
+footer{
+  display: block;
+}
+.footer {
+  background-color: #283c4f;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  color: white;
+  width: 100%;
+}
+
+.footer div{
+  width: 350px;
+  text-align: center;
+  margin: 10px;
+  font-size: 16px;
+}
+
+.img-cirle{
+  border-color: white;
+  border: 2px;
+}
+
+.footer-end{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #13202b;
+  color: white;
+  height: 50px;
+}
